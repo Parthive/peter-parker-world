@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -37,4 +40,27 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experince-item{
+    box-shadow: 5px 7px 40px grey;
+    width: 40%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#full-stack{
+    border-left: 8px solid tomato;
+}
+#baby-web{
+    border-left: 8px solid blue;
+}
 
+footer p{
+    text-align: center;
+}
